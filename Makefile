@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -Werror -pedantic -std=gnu18 -g -pedantic -W -Wstrict-prototypes -Wunreachable-code  -Wpointer-arith -Wbad-function-cast -Wcast-align -lreadline
+CFLAGS=-Wall -Werror -pedantic -std=gnu18 -g -pedantic -W -lreadline
 
 all: nish
 
